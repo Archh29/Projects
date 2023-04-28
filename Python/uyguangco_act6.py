@@ -1,0 +1,5 @@
+print("US Dollar to Philippine Peso Converter")
+dollar = float(input("Enter the Amount of (US Dollar):"))
+exchangerate = float(input("Enter Exchange Rate:"))
+a = (dollar * exchangerate)
+print(dollar, "US Dollars =", a, "Philipine peso")
